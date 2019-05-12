@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ant.application", "ant.application", "{2AD6DF64-B7FD-41AE-AFCD-DD562EE5ABBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ant.handlevideo", "ant.application\ant.handlevideo\ant.handlevideo.csproj", "{849C089B-646C-4F85-A22F-1E717526EDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849C089B-646C-4F85-A22F-1E717526EDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849C089B-646C-4F85-A22F-1E717526EDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849C089B-646C-4F85-A22F-1E717526EDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849C089B-646C-4F85-A22F-1E717526EDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{849C089B-646C-4F85-A22F-1E717526EDBB} = {2AD6DF64-B7FD-41AE-AFCD-DD562EE5ABBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A39D09D-1C61-444A-A616-73817ABDEAED}
+	EndGlobalSection
+EndGlobal
