@@ -17,6 +17,7 @@ namespace ant.handlevideo
 {
     public partial class MainForm : Form
     {
+
         const string VIDEO_CUT = "VIDEO_CUT_";
         const string VIDEO_SPLICE = "VIDEO_SPLICE_";
 
@@ -73,6 +74,7 @@ namespace ant.handlevideo
                     File.Delete(item.FullName);
                     continue;
                 }
+                
 
                 filePath = PingYinHelper.ConvertToAllSpell(item.Name);
                 filePath = filePath.Replace(" ", "");
